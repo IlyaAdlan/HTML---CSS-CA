@@ -123,39 +123,39 @@ nav a {
     width: 10%;
     display: block;
     margin-left: auto;
-    margin-right: 200px;
-    margin-top: 150px;
+    margin-right: 11%;
+    margin-top: 10%;
     border: 1px solid white;
     padding: 10px;
-    padding-right: 300px;  
+    padding-right: 16%;  
 }
 
 p2 {
-    margin-top: -90px;
+    margin-top: -13%;
     font-size: 20px;
-    margin-right: 150px;
-    padding: 100px;
+    margin-right: 20%;
+    padding: 15%;
     display: block;
 }
 
 p3 {
-    margin-top: -190px;
+    margin-top: -28%;
     font-size: 20px;
-    margin-right: 150px;
-    padding: 100px;
+    margin-right: 20%;
+    padding: 15%;
     display: block;
 }
 
 p5 {
-    margin-top: -220px;
+    margin-top: -32%;
     font-size: 20px;
-    margin-left: 150px;
-    padding: 100px;
+    margin-left: 25%;
+    padding: 14%;
     display: block;
 }
 
 p4 {
-    margin-top: -220px;
+    margin-top: -32%;
     font-size: 20px;
     margin-left: 150px;
     padding: 100px;
