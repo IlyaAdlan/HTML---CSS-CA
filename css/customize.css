@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body {
     background: #131313;
-    height: 300vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     overflow-x: hidden;
     margin: 0;
 }
@@ -33,7 +33,7 @@ hr{
         height: 1px;
         background-color: #1883A5;
         border: none;
-        width: 100%       
+        width: 100% 
 }
 
 button {
@@ -54,14 +54,14 @@ button2 {
     color: #131313;
     cursor: pointer;
     float: right;
-    margin-right: 30px;
+    margin-right: 620px;
+    margin-top: 30px;
 }
 
 .logo {
-    align-self: center;
-    width: 15%;
+    width: 20%;
     cursor: pointer;
-    margin-left: 500px;
+    margin-left: 30%;
 }
 
 nav,
@@ -82,55 +82,71 @@ header {
     padding: 10px;
 }
 
+
 nav {
     position: absolute;
     background: #131313;
-    margin-top: 20px;
+    margin-top: 1%;
 }
 
 nav a {
     display: block;
-    padding: 10px 20px;   
-}
-
-.forest {
-    width: 100%;
-    height: 40%;
-    margin-top: -6px;   
-}
-
-.best-seller {
-    text-align: center;
-    color: #1883A5;
-    font-size: 100px;
-}
-
-.Description {
-    color: white;
-    border: 1px solid white;
-    text-align: center;
-}
-
-.gallery-container {
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-    justify-content: space-between;     
-}
-
-.gallery {
-    display: inline-block;
-    flex-direction: column;   
-    max-height: 100%;
-}
-
-.gallery-container img{
-    width:  350px;
-    height: 350px;
+    padding: 10px 20px;
 }
 
 .rain-jacket {
-    width: 300px;
+    width: 25%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: 1000px;
+    margin-top: 150px;
+}
+
+.Description {
+
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;   
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: -610px;
+}
+
+.size {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+p2 {
+    border: 1px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;   
+}
+
+.cart {
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+p3 {
+    border: 1px solid white;
+    padding-left: 90px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 @media (min-width: 600px){
@@ -151,10 +167,12 @@ nav a {
 footer {
     background-color: #1883A5;
     margin-top: auto;
+     
 }
 
 .footerNav {
     list-style: none;
+    
 }
 
 .footerNav h1{
@@ -163,6 +181,7 @@ footer {
 
 .footerContainer {
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .socialIcons {
@@ -175,7 +194,7 @@ footer {
     text-decoration: none;
     padding: 10px;
     background-color: #131313;
-    margin: 10px;
+    margin: 1%;
     border-radius: 50%;
 }
 
@@ -190,8 +209,9 @@ footer {
     text-decoration: none;
     list-style: none;
     color: #131313;
-    margin-top: -150px;
+    margin-top: -10%;
     padding: 10px;
+    
 }
 
 li {
@@ -201,27 +221,25 @@ li {
 
 h2 {
     float: right;
-    margin-right: 270px;
-    margin-top: -250px;
+    margin-right: 15%;
+    margin-top: -13%;
     font-size: 40px;
 }
 
 .logo2 {
     width: 15%;
     float: right;
-    margin-top: -150px;
-    margin-right: 200px;
+    margin-top: -7%;
+    margin-right: 10%;
 }
 
-.About {
+.about {
     cursor: pointer;
 }
 
-.About a{
+.about a{
     color: #131313;
 }
-
-
 
 @media (min-width:600px){
     .footerNav{
@@ -229,7 +247,7 @@ h2 {
     }
     .footerNav ul li{
         width: 100%;
-        
-        
+
+
     }
 }
