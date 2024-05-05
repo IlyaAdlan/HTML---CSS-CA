@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Billing information for buying chosen product">
+  <meta name="description" content="Chosen product customization">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/checkout.css">
+  <link rel="stylesheet" href="css/customize.css">
   <link rel="icon" href="/images/rainy_days_upper_half.png">
-  <title>Billing Information</title>
+  <title>Customize</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +22,7 @@
       <a href="store.html">Women</a>
       <a href="store.html">Kids</a>
     </nav>
-    <a href="/index.html">
+    <a href="index.html">
       <img class="logo" src="/images/rainy_days_upper_half.png" alt="top logo">
     </a>
     <a class="cta" href="checkout.html"><button>Checkout</button></a>
@@ -30,72 +30,29 @@
 
   <main>
     <hr>
-    <section class="item-container">
-      <div class="buy">
-        <img class="rain-jacket" src="/images/RainyDays_Jacket1.jpg" alt="rain-jacket">
+    <section>
+      <div class="gallery">
+        <a href="#">
+          <img class="rain-jacket" src="/images/RainyDays_Jacket1.jpg" alt="rain-jacket">
+        </a>
         <div class="description">
           <h1>Rainy Days</h1>
           <p>UNISEX - Rain Jacket</p>
-          <div class="hr2">
-            <hr>
-          </div>
-          <div class="product-info">
-            <p class="product-amount">Product Total :</p>
-            <p class="product-total">kr 2000,00</p>
-            <p class="shipping-fee">Shipping Fee :</p>
-            <p class="shipping-fee-total">kr 70,00</p>
-            <p class="total">Total :</p>
-            <p class="total-amount">kr 2070,00</p>
-          </div>
+          <p>2000kr</p>
+        </div>
+
+        <div class="size">
+          <p2>Select Size</p2>
+        </div>
+
+        <div class="cart">
+          <p3>Add to Cart</p3>
         </div>
       </div>
+
     </section>
-
-    <div class="container">
-      <form action="#">
-
-        <div class="row">
-
-          <div class="col">
-
-            <h3 class="title">Billing Address</h3>
-
-            <div class="inputBox">
-              <span>Full name :</span>
-              <input type="text" placeholder="example - Adlan Ilyasov">
-            </div>
-
-            <div class="inputBox">
-              <span>Email Address :</span>
-              <input type="text" placeholder="Example - Adlanilyasov@example.com">
-            </div>
-
-            <div class="inputBox">
-              <span>Phone Number :</span>
-              <input type="text" placeholder="example - +47 300 77 888">
-            </div>
-
-            <div class="inputBox">
-              <span>Home Address :</span>
-              <input type="text" placeholder="example - example - Myhouse 44">
-            </div>
-
-            <div class="inputBox">
-              <span>Zip code :</span>
-              <input type="text" placeholder="example - 4250 ">
-            </div>
-
-            <div class="inputBox">
-              <span>City :</span>
-              <input type="text" placeholder="example - Lazytown">
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <a class="cta" href="success.html">
-      <button2>Continue</button2>
+    <a class="cta" href="checkout.html">
+      <button2>Checkout</button2>
     </a>
   </main>
 
