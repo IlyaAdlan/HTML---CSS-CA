@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     background: #131313;
-    height: 200vh;
+    height: 250vh;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -52,6 +52,18 @@ button {
     margin-left: 30%;
 }
 
+@media (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50%;
+    }
+}
+
 nav,
 #menu-checkbox {
     display: none;
@@ -88,53 +100,57 @@ nav a {
 
 .gallery-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid white;
     padding-left: 3%;
     padding-top: 1%;
+    max-width: 80%;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gallery-container2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 1%;
     border: 1px solid white;
     padding-left: 3%;
     padding-top: 1%;
-    width: 90%;   
+    max-width: 80%; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gallery-container img{
     max-width: 100%;
-    height: 100%;         
+    height: auto;
 }
 
-.gallery-container2 img {
+.gallery-container2 img{
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .gallery {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;    
+    flex: 1 1 200px;
+    margin-bottom: 1%;
+    box-sizing: border-box;    
 }
 
 .gallery img{
     max-width: 100%;
-    width: 60%;
+    height: auto;
 }
 
 .description {
     color: white;
-    padding: 10px;   
-}
+    padding: 10px;  
+} 
 
 @media (min-width: 600px){
     nav {
@@ -153,13 +169,11 @@ nav a {
 
 footer {
     background-color: #1883A5;
-    margin-top: auto;
-     
+    margin-top: auto;   
 }
 
 .footerNav {
     list-style: none;
-    
 }
 
 .footerNav h1{
@@ -173,8 +187,7 @@ footer {
 
 .socialIcons {
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
 .socialIcons a {
@@ -197,8 +210,7 @@ footer {
     list-style: none;
     color: #131313;
     margin-top: -10%;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 li {
@@ -226,6 +238,30 @@ h2 {
 
 .about a{
     color: #131313;
+}
+
+@media (max-width: 480px) {
+    .logo2 {
+        width: 35%;
+        margin-top: 5%;
+        margin-right: 20%;
+    }
+    .socialIcons {
+        margin-top: 5%;
+    }
+    .questions {
+        margin-top: 5%;
+    }
+    h2 {
+        margin-top: 5%;
+        margin-right: 0;
+    }
+    .footerNav {
+        margin-left: 30%;
+    }
+    .about {
+        margin-right: 5%;
+    }
 }
 
 @media (min-width:600px){

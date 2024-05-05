@@ -30,10 +30,10 @@ a, li {
 }
 
 hr{
-        height: 1px;
-        background-color: #1883A5;
-        border: none;
-        width: 100% 
+     height: 1px;
+     background-color: #1883A5;
+     border: none;
+     width: 100% 
 }
 
 button {
@@ -50,6 +50,18 @@ button {
     width: 20%;
     cursor: pointer;
     margin-left: 30%;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50%;
+    }
 }
 
 nav,
@@ -118,12 +130,10 @@ img {
 footer {
     background-color: #1883A5;
     margin-top: auto;
-     
 }
 
 .footerNav {
-    list-style: none;
-    
+    list-style: none;    
 }
 
 .footerNav h1{
@@ -137,8 +147,7 @@ footer {
 
 .socialIcons {
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
 .socialIcons a {
@@ -161,8 +170,7 @@ footer {
     list-style: none;
     color: #131313;
     margin-top: -10%;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 li {
@@ -190,6 +198,30 @@ h2 {
 
 .About a{
     color: #131313;
+}
+
+@media (max-width: 480px) {
+    .logo2 {
+        width: 35%;
+        margin-top: 5%;
+        margin-right: 20%;
+    }
+    .socialIcons {
+        margin-top: 5%;
+    }
+    .questions {
+        margin-top: 5%;
+    }
+    h2 {
+        margin-top: 5%;
+        margin-right: 0;
+    }
+    .footerNav {
+        margin-left: 30%;
+    }
+    .about {
+        margin-right: 5%;
+    }
 }
 
 @media (min-width:600px){

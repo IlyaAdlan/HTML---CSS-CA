@@ -54,14 +54,26 @@ button2 {
     color: #131313;
     cursor: pointer;
     float: right;
-    margin-right: 620px;
-    margin-top: 30px;
+    margin-right: 33.5%;
+    margin-top: 2%;
 }
 
 .logo {
     width: 20%;
     cursor: pointer;
     margin-left: 30%;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50%;
+    }
 }
 
 nav,
@@ -82,7 +94,6 @@ header {
     padding: 10px;
 }
 
-
 nav {
     position: absolute;
     background: #131313;
@@ -99,19 +110,17 @@ nav a {
     text-align: center;
     display: block;
     margin-left: auto;
-    margin-right: 1000px;
-    margin-top: 150px;
+    margin-right: 54%;
+    margin-top: 8%;
 }
 
-.Description {
-
+.description {
     color: white;
     border-radius: 10px;
     font-size: 30px;
     text-align: center;   
-    margin-left: 500px;
-    margin-right: auto;
-    margin-top: -610px;
+    margin-left: 28%;
+    margin-top: -30%;
 }
 
 .size {
@@ -119,7 +128,7 @@ nav a {
     font-size: 30px;
     padding: 10px;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 27%;
 }
 
 p2 {
@@ -137,7 +146,7 @@ p2 {
     font-size: 30px;
     padding: 10px;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 27%;
 }
 
 p3 {
@@ -148,6 +157,23 @@ p3 {
     padding-bottom: 10px;
     text-align: center;
 }
+
+ @media (max-width: 600px) {
+    .rain-jacket {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+        width: 70%;
+    }
+    .description,
+    .size,
+    .cart {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+ }
 
 @media (min-width: 600px){
     nav {
@@ -166,13 +192,11 @@ p3 {
 
 footer {
     background-color: #1883A5;
-    margin-top: auto;
-     
+    margin-top: auto;     
 }
 
 .footerNav {
-    list-style: none;
-    
+    list-style: none;   
 }
 
 .footerNav h1{
@@ -186,8 +210,7 @@ footer {
 
 .socialIcons {
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;   
 }
 
 .socialIcons a {
@@ -210,8 +233,7 @@ footer {
     list-style: none;
     color: #131313;
     margin-top: -10%;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 li {
@@ -241,13 +263,35 @@ h2 {
     color: #131313;
 }
 
+@media (max-width: 480px) {
+    .logo2 {
+        width: 35%;
+        margin-top: 5%;
+        margin-right: 20%;
+    }
+    .socialIcons {
+        margin-top: 5%;
+    }
+    .questions {
+        margin-top: 5%;
+    }
+    h2 {
+        margin-top: 5%;
+        margin-right: 0;
+    }
+    .footerNav {
+        margin-left: 30%;
+    }
+    .about {
+        margin-right: 5%;
+    }
+}
+
 @media (min-width:600px){
     .footerNav{
         flex-direction: column;
     }
     .footerNav ul li{
         width: 100%;
-
-
     }
 }
