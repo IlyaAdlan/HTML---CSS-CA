@@ -42,25 +42,17 @@ hr{
         width: 100% 
 }
 
-.hr2 {
-    height: 1px;
-        background-color: #1883A5;
-        border: none;
-        width: 43%; 
-        margin-left: 204px;    
-}
-
-button {
+.button {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;
     border-radius: 50px;
     color: #131313;
-    margin-top: 30%;
+    margin-top: 5%;
     cursor: pointer;
 }
 
-button2 {
+.button2 {
     padding: 15px 35px;
     background-color: #1883A5;
     border: none;
@@ -162,32 +154,32 @@ nav a {
 
 .product-amount {
     margin-top: 1%;
-    margin-left: 41%;
+    margin-left: 40%;
 }
 
 .product-total {
     margin-top:  1%;
-    margin-left: 51%;
+    margin-left: 50%;
 }
 
 .shipping-fee {
     margin-top: 3%;
-    margin-left: 41%;
+    margin-left: 40%;
 }
 
 .shipping-fee-total {
     margin-top: 3%;
-    margin-left: 51%;
+    margin-left: 50%;
 } 
 
 .total {
     margin-top: 6%;
-    margin-left: 41%;
+    margin-left: 40%;
 }
 
 .total-amount {
     margin-top: 6%;
-    margin-left: 51%;
+    margin-left: 50%;
 }
 
 .product-amount,

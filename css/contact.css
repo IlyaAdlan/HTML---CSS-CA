@@ -36,13 +36,13 @@ hr{
         width: 100% 
 }
 
-button {
+.button {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;
     border-radius: 50px;
     color: #131313;
-    margin-top: 30%;
+    margin-top: 5%;
     cursor: pointer;
 }
 
@@ -140,7 +140,9 @@ h2 {
     max-width: 100%;
 }
 
-button2 {
+.button-chat,
+.button-email,
+.button-phone {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;

@@ -36,17 +36,17 @@ hr{
         width: 100% 
 }
 
-button {
+.button {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;
     border-radius: 50px;
     color: #131313;
-    margin-top: 30%;
+    margin-top: 5%;
     cursor: pointer;
 }
 
-button2 {
+.button2 {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;
@@ -128,34 +128,36 @@ nav a {
     font-size: 30px;
     padding: 10px;
     text-align: center;
-    margin-left: 27%;
-}
-
-p2 {
-    border: 1px solid white;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;   
+    margin-left: 56%;
 }
 
 .cart {
-    margin-top: 10px;
     color: white;
     font-size: 30px;
     padding: 10px;
     text-align: center;
-    margin-left: 27%;
+    margin-left: 56%;
+    margin-top: -3%;
 }
 
-p3 {
+.size p {
     border: 1px solid white;
-    padding-left: 90px;
-    padding-right: 100px;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    width: 30%;   
+}
+
+.cart p {
+    border: 1px solid white;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 30%;
 }
 
  @media (max-width: 600px) {

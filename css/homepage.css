@@ -46,6 +46,19 @@ hr{
     cursor: pointer;
 }
 
+.button-view {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1883A5;
+    padding: 9px 25px;
+    background-color: #1883A5;
+    border-radius: 50px;
+    color: #131313;
+    cursor: pointer;
+    float: right;
+    margin-right: 3%;
+}
+
 .logo {
     width: 20%;
     cursor: pointer;

@@ -36,13 +36,13 @@ hr{
         width: 100% 
 }
 
-button {
+.button {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;
     border-radius: 50px;
     color: #131313;
-    margin-top: 30%;
+    margin-top: 5%;
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@ h3 {
     text-align: center;    
 }
 
-button2 {
+.button2 {
     padding: 9px 25px;
     background-color: #1883A5;
     border: none;
