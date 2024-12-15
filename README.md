@@ -1,6 +1,6 @@
 # Rainy Days
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](file:///C:/Users/ADNAN/Pictures/rainy_days_upper_half.png)
 
 A website for buying the proper Rain Jackets that is necessary for the weather that you have to deal with.
 On this website you can find clothes for men, women and children.
